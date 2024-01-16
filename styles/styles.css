@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 /* common-styles */
 * {
     margin: 0;
@@ -577,9 +577,68 @@ hr {
     background: #FF5400;
     margin-top: 24px;
 }
-.newsletter-button a{
+
+.newsletter-button a {
     color: #FFF;
     text-decoration: none;
     font-size: 20px;
     font-weight: 800;
+}
+
+/* newsletter-section-ends */
+
+.footer-section {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+}
+
+.footer-text {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.footer-text p {
+    padding-top: 15px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social-icons {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-line {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.copyright {
+    margin-top: 50px;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
 }
