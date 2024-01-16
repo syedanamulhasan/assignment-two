@@ -1,11 +1,120 @@
 @media screen and (max-width:676px) {
-    .nav-container{
-        flex-direction: column;
-    }
-    .menu-container{
-        flex-direction: column;
-        margin-left: 150px;
-        gap: 10px;
+    img {
+        width: 100%;
     }
 
+    .logo-container h2 {
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    .logo-container .logo {
+        width: 24px;
+        height: 28px;
+        margin-left: 20px;
+    }
+
+    .mobile-menu-icon {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .mobile-menu-icon input {
+        visibility: hidden;
+    }
+
+    .menu-container {
+        flex-direction: column;
+        display: none;
+
+    }
+
+    .banner-image {
+        margin: 0 20px;
+    }
+
+    .banner-img-headline {
+
+        font-size: 32px;
+    }
+
+    .input-field-data {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .popular-tours{
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .mal-ind,
+    .snk,
+    .bb {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px 20px 20px;
+    }
+
+    .kashmir {
+        width: 100vw;
+        background-size: 100%;
+    }
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-america,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        max-width: 100%;
+    }
+
+    .discount-img-1,
+    .discount-img-2,
+    .discount-img-3{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .hotels-and-location {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hotels,
+    .location,
+    .price {
+        width: 90%;
+    }
+
+    .deals-details {
+        display: flex;
+        margin: 5px;
+        padding: 0;
+    }
+
+    .deals-description {
+        margin-left: 20px;
+    }
+    .mountains-section,.newsletter{
+        margin-left: 20px;
+        flex-direction: column;
+    }
+    .footer-logo .logo {
+        width: 24px;
+        height: 28px;
+        margin-left: 20px;}
+        .footer-section{
+            width: 100%;
+            height: auto;
+        }
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/df5e22d1ed.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/responsive.css">
 </head>
@@ -12,16 +13,21 @@
     <header class="header-section">
         <nav class="nav-container">
             <div class="logo-container">
-                <img src="B9A2-Hero-Travel-main/Images/Group 40071 (2).png" alt="">
+                <img class="logo" src="B9A2-Hero-Travel-main/Images/Group 40071 (2).png" alt="">
                 <h2>Latif <span class="travels">Travels</span></h2>
             </div>
-            <div class="menu-container">
-                <a href="">Home</a>
-                <a href="">Packages</a>
-                <a href="">Testimonial</a>
-                <a href="">Blog</a>
-                <a href="">Contact</a>
-            </div>
+            
+                <div class="mobile-menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="menu-container">
+                    <a href="">Home</a>
+                    <a href="">Packages</a>
+                    <a href="">Testimonial</a>
+                    <a href="">Blog</a>
+                    <a href="">Contact</a>
+                </div>
+            
         </nav>
         <section class="banner-image">
             <div class="banner-content">
@@ -39,8 +45,9 @@
                         <option value="When">select type</option>
                     </select>
                      <!-- <input type="text"placeholder="When"> -->
-                     <label for="">
-                        <input class="btn-primary find-now" id="wh" type="button"value="Find Now"></label>   
+                     <!-- <label for="">
+                        <i class="fa-solid fa-magnifying-glass"></i><input class="btn-primary find-now" id="wh" type="button"value="Find Now"></label>    -->
+                    <button class="btn-primary btn-find"><i class="fa-solid fa-magnifying-glass"></i><span>Find Now</span></button>
                  </form>
                 </div>
             </div>
@@ -238,16 +245,17 @@
                 <input class="newsletter-info"  type="email"placeholder="Enter your email">
                 <button class="newsletter-button"><a href="">Subscribe</a>
             </div>
-            <div>
+            <div class="newsletter-img">
                 <img src="B9A2-Hero-Travel-main/Images/newsletter img.png" alt="">
             </div>
         </section>
         <!-- newsletter-section-ends -->
     </main>
+    <!-- footer-section-starts -->
     <footer class="footer-section">
         <div class="footer-text">
             <div class="footer-logo">
-                <img src="B9A2-Hero-Travel-main/Images/Group 40071 (2).png" alt="">
+                <img class="logo " src="B9A2-Hero-Travel-main/Images/Group 40071 (2).png" alt="">
                 <h2>Latif <span class="travels">Travels</span></h2>
             </div>
                 <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo <br>erat maecenas vitae elementum ultricies nullam. </p>
@@ -262,5 +270,6 @@
             </div>
         </div>
     </footer>
+    <!-- footer-section-ends -->
 </body>
 </html>
