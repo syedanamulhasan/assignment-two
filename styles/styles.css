@@ -1,7 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-
-*{
+/* common-styles */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: Mulish;
+}
+
+/* nav-section-starts */
+.header-section {}
+
+.nav-container {
+    max-width: 1170px;
+    /* min-height: 100px; */
+    /* border: 2px solid red; */
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    gap: 15px;
+    width: 50%;
+
+}
+
+.logo-container img {
+    object-fit: cover;
+
+}
+
+.logo-container h2 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.travels {
+    color: #FF5400;
+}
+
+.menu-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-container a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #424247;
+    font-weight: 700;
+}
+
+/* nav-section-ends */
+
+/* banner-section-starts */
+.banner-image {
+    max-width: 1170px;
+    min-height: 500px;
+    border: 0;
+    border-radius: 16px;
+    margin: 0 auto;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../B9A2-Hero-Travel-main/Images/banner.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .banner-content{
+    margin-top: 105px;
+} */
+.banner-image-content {
+    text-align: center;
+}
+
+.banner-img-headline {
+    /* margin-top: 105px; */
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-image-text {
+    max-width: 676px;
+    margin-bottom: 48px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-field {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.input-field-data input[type=text] {
+    margin: 16px 24px;
+    padding: 16px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.input-field-data select {
+    max-width: 174px;
+    /* min-height: 52px; */
+    margin: 16px;
+    padding: 16px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.input-field-data input[type=button] {
+    max-width: 174px;
+    height: 52px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 16px 34px;
+    color: #FFF;
+}
+
+/* popular-tours-section-starts */
+.popular-tours {
+    max-width: 1170px;
+    min-height: 550px;
+    margin: 100px auto;
+    display: flex;
+    gap: 50px;
+}
+
+.popular-tours-text h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-tours-description p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.popular-tours-description ul {
+    margin-left: 20px;
+}
+
+.popular-tours-description ul li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 16px;
+}
+
+.btn-primary {
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 30px;
+    padding: 15px 35px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.btn-primary a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* popular-tours-section-ends */
+
+/* destination-section-starts */
+.destination {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.destination-text h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination-text p {
+    max-width: 640px;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.malind {
+    display: flex;
+    gap: 24px;
+    margin-top: 45px;
+}
+
+.snk {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.bb {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+/* destination-section-ends */
+
+/* service-section-starts */
+.service-section {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.service-section h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.service-section p {
+    max-width: 640px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.hotels-and-location {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.hotels {
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.hotels img {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 64px;
+    height: 64px;
+}
+
+.hotels h4 {
+    color: #131318;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.hotels p {
+    text-align: left;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.location {
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.location img {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 64px;
+    height: 64px;
+}
+
+.location h4 {
+    color: #131318;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.location p {
+    text-align: left;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.price {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.price img {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 64px;
+    height: 64px;
+}
+
+.price h4 {
+    color: #131318;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.price p {
+    text-align: left;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/* service-section-ends */
+
+/* discount-section-starts */
+.discount {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.discount-text h1 {
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.discount-text p{
+    
 }
