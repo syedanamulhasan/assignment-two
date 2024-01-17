@@ -58,10 +58,10 @@
         margin: 0 20px 20px 20px;
     }
 
-    .kashmir {
+    /* .kashmir {
         width: 100vw;
         background-size: 100%;
-    }
+    } */
 
     .maldives,
     .indonesia,
@@ -70,16 +70,21 @@
     .kashmir,
     .bangladesh,
     .bandarban {
-        max-width: 100%;
+        width: 100%;
+        
     }
-
+    .discount{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
     .discount-img-1,
     .discount-img-2,
     .discount-img-3{
         width: 90%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
+        /* margin-left: 15px; */
 
     }
 
@@ -105,9 +110,36 @@
     .deals-description {
         margin-left: 20px;
     }
-    .mountains-section,.newsletter{
-        margin-left: 20px;
+    .mountains-section{
+        /* margin-left: 20px; */
         flex-direction: column;
+        width: 90%;
+    }
+    .newsletter{
+        flex-direction: column;
+        justify-content: center;
+        width: 90%
+    }
+    /* 
+    .newsletter-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 5px;
+
+    }
+    .newsletter-info{
+        width: 250px;
+        
+    } */
+    /* .newsletter-text h3{
+        padding-top: 0;
+    }
+    .newsletter-text p{
+        margin-top: 0;
+    } */
+    .bangladesh-mountains{
+        width: 100%;
     }
     .footer-logo .logo {
         width: 24px;
@@ -117,4 +149,7 @@
             width: 100%;
             height: auto;
         }
+        /* .mountains-section{
+            display: flex;
+        } */
 }
