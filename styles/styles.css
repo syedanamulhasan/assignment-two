@@ -753,9 +753,10 @@ hr {
     gap: 20px;
 }
 
-.social-icons img {
+.social-icons i {
     width: 24px;
     height: 24px;
+    color: black;
 }
 
 .footer-line {
